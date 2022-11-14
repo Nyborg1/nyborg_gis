@@ -12,3 +12,6 @@
 {
   display:none !important;
 }
+#fixed-table-container fixed-height{
+  height: 100px
+}
