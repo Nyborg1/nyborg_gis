@@ -2,7 +2,7 @@
 #burger-btn,
 #full-screen-btn,
 {
- about-btn:none
+ #about-btn:none
 }
 #session,
 #place-search,
@@ -10,7 +10,7 @@
 #mapcontrols-history-backward,
 #mapcontrols-history-forward
 {
-  #display:none !important;
+  display:none !important;
 }
 fixed-table-container fixed-height
 {
