@@ -5,12 +5,12 @@
 #full-screen-btn,
 #about-btn,
 {
-session,
+#session,
 }
 #legend-dialog,
 #place-search,
 #mapcontrols-history-backward,
-#mapcontrols-history-forward
+#mapcontrols-history-forward,
 {
   display:none !important;
 }
