@@ -3,13 +3,14 @@ display:none;
 #find-me-btn,
 #burger-btn,
 #full-screen-btn,
- about-btn,
+#about-btn,
  session,
+ legend-dialog,
 }
 #place-search,
-#legend-dialog,
+
 #mapcontrols-history-backward,
-#mapcontrols-history-forward
+#mapcontrols-history-forward,
 }
 fixed-table-container fixed-height
 {
