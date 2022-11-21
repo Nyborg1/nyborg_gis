@@ -1,11 +1,13 @@
 {
-display:none;
-}
+display:none,
+
 #find-me-btn,
 #burger-btn,
 #full-screen-btn,
 #about-btn,
-#session,
+
+  session,
+}
 #place-search,
 #legend-dialog,
 #mapcontrols-history-backward,
@@ -14,4 +16,3 @@ display:none;
 fixed-table-container fixed-height
 {
   #height: 100px
-}
