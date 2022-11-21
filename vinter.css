@@ -1,16 +1,14 @@
-#find-me-btn,
+{
+ find-me-btn:none,
 #burger-btn,
 #full-screen-btn,
-{
- #about-btn:none
-}
+#about-btn:none,
 #session,
 #place-search,
 #legend-dialog,
 #mapcontrols-history-backward,
 #mapcontrols-history-forward
-{
-  display:none !important;
+#display:none !important;
 }
 fixed-table-container fixed-height
 {
