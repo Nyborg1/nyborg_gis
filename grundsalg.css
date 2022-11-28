@@ -9,7 +9,8 @@
 #place-search,
 #mapcontrols-history-backward,
 #mapcontrols-history-forward,
-#session
+#session,
+#zoom-default-btn
 {
   display:none !important;
 }
