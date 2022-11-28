@@ -9,6 +9,7 @@
 #place-search,
 #mapcontrols-history-backward,
 #mapcontrols-history-forward,
+#session
 {
   display:none !important;
 }
