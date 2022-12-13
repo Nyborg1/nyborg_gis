@@ -1,19 +1,4 @@
-#test {
-}
-#find-me-btn,
-#burger-btn,
-#full-screen-btn,
-#about-btn,
-session,
-#legend-dialog,
-#place-search,
-#mapcontrols-history-backward,
-#mapcontrols-history-forward,
-#session,
-#zoom-default-btn
+session
 {
   display:none !important;
-}
-#fixed-table-container fixed-height{
-  height: 100px
 }
