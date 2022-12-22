@@ -6,12 +6,9 @@ display:none;
 #about-btn,
  session,
  legend-dialog,
-}
 #place-search,
-
 #mapcontrols-history-backward,
 #mapcontrols-history-forward,
-}
 fixed-table-container fixed-height
-{
   #height: 100px
+}
