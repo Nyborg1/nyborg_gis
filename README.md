@@ -1,2 +1,2 @@
 # nyborg_gis
-Nyt webgis i Nyborg
+VIDI / GC2 = webgis i Nyborg
