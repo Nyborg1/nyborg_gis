@@ -7,9 +7,7 @@
     white-space: nowrap;
     font-size: .7rem;
 }
-.bootstrap-table .fixed-table-container .table thead th .sortable {
-    cursor: pointer;
-    background-position: right;
-    background-repeat: no-repeat;
+.bootstrap-table .fixed-table-container .table thead th .sortable
+{
     padding-right: 10px!important;
 }
