@@ -10,18 +10,13 @@
 
 // Følgende skjuler editorværktøjerne i tabellen
 #vector-side-table > div.bootstrap-table.bootstrap5 > div.fixed-table-container.fixed-height > div.fixed-table-header > table > thead > tr > th:last-child {
-    background-color:black;
     display:none;
 }
 
 #vector-side-table > div.bootstrap-table.bootstrap5 > div.fixed-table-container.fixed-height > div.fixed-table-body > table > thead > tr > th:last-child {
-    background-color:black;
-        display:none;
-
+    display:none;
 }
 
 #vector-side-table > div.bootstrap-table.bootstrap5 > div.fixed-table-container.fixed-height > div.fixed-table-body > table > tbody> tr > td:last-child {
-    background-color:black;
-        display:none;
-
+    display:none;
 }
