@@ -1,0 +1,154 @@
+:root {
+    /* Skift denne til officiel Nyborg-accentfarve hvis du har den internt */
+    --nyborg-accent: #2f6f68;
+    --nyborg-accent-light: #eaf3f1;
+
+    --nyborg-text: #1f2937;
+    --nyborg-text-muted: #6b7280;
+
+    --nyborg-border: #d9e1e7;
+    --nyborg-surface: #ffffff;
+    --nyborg-surface-soft: #f7f9fb;
+
+    --nyborg-shadow: 0 2px 8px rgba(16, 24, 40, 0.08);
+    --nyborg-radius: 12px;
+}
+
+/* Wrapper */
+#vector-side-table {
+    font-size: 0.75rem;
+    color: var(--nyborg-text);
+    background: var(--nyborg-surface);
+    border: 1px solid var(--nyborg-border);
+    border-radius: var(--nyborg-radius);
+    overflow: hidden;
+    box-shadow: var(--nyborg-shadow);
+}
+
+/* Selve bootstrap-tabellen */
+#vector-side-table .bootstrap-table {
+    background: var(--nyborg-surface);
+}
+
+/* Header */
+#vector-side-table .fixed-table-header,
+#vector-side-table thead {
+    background: var(--nyborg-surface-soft);
+}
+
+#vector-side-table th {
+    white-space: nowrap;
+    font-weight: 600;
+    color: var(--nyborg-text);
+    background: var(--nyborg-surface-soft);
+    border-bottom: 1px solid var(--nyborg-border) !important;
+    padding: 0.7rem 0.75rem !important;
+}
+
+/* Sorteringsikoner */
+.bootstrap-table .fixed-table-container .table thead th .sortable {
+    padding-right: 10px !important;
+}
+
+/* Celler */
+#vector-side-table td {
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0.65rem 0.75rem !important;
+    border-top: 1px solid #edf1f5 !important;
+    color: var(--nyborg-text);
+    background: var(--nyborg-surface);
+}
+
+/* Zebra-striber */
+#vector-side-table tbody tr:nth-child(even) td {
+    background: #fbfcfd;
+}
+
+/* Hover */
+#vector-side-table tbody tr:hover td {
+    background: var(--nyborg-accent-light);
+    transition: background-color 0.15s ease-in-out;
+}
+
+/* Aktiv/valgt række hvis VIDI/Bootstrap sætter class */
+#vector-side-table tbody tr.table-active td,
+#vector-side-table tbody tr.selected td {
+    background: var(--nyborg-accent-light) !important;
+    box-shadow: inset 3px 0 0 var(--nyborg-accent);
+}
+
+/* Links i tabellen */
+#vector-side-table a {
+    color: var(--nyborg-accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#vector-side-table a:hover,
+#vector-side-table a:focus {
+    text-decoration: underline;
+}
+
+/* Fokus til tastaturnavigation */
+#vector-side-table button:focus,
+#vector-side-table a:focus,
+#vector-side-table input:focus,
+#vector-side-table select:focus {
+    outline: 2px solid var(--nyborg-accent);
+    outline-offset: 2px;
+}
+
+/* Toolbar / søgning / pagination hvis de vises */
+#vector-side-table .search input,
+#vector-side-table .form-control {
+    border: 1px solid var(--nyborg-border);
+    border-radius: 8px;
+    color: var(--nyborg-text);
+    background: #fff;
+    box-shadow: none;
+}
+
+#vector-side-table .search input::placeholder,
+#vector-side-table .form-control::placeholder {
+    color: var(--nyborg-text-muted);
+}
+
+#vector-side-table .btn,
+#vector-side-table button {
+    border-radius: 8px;
+    border: 1px solid var(--nyborg-border);
+    background: #fff;
+    color: var(--nyborg-text);
+    box-shadow: none;
+}
+
+#vector-side-table .btn:hover,
+#vector-side-table button:hover {
+    background: var(--nyborg-surface-soft);
+    border-color: #c8d3dc;
+}
+
+/* Pagination */
+#vector-side-table .pagination > li > a,
+#vector-side-table .pagination > li > span,
+#vector-side-table .page-link {
+    color: var(--nyborg-text);
+    border-color: var(--nyborg-border);
+    background: #fff;
+}
+
+#vector-side-table .pagination > .active > a,
+#vector-side-table .pagination > .active > span,
+#vector-side-table .page-item.active .page-link {
+    background: var(--nyborg-accent);
+    border-color: var(--nyborg-accent);
+    color: #fff;
+}
+
+/* Skjul sidste kolonne (typisk editor-/aktionskolonne) */
+#vector-side-table th:last-child,
+#vector-side-table td:last-child {
+    display: none;
+}
+``
