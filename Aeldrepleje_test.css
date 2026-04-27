@@ -1,34 +1,98 @@
-.info-panel {
-  padding: 16px;
+/* =========================================================
+   MAPCENTIA VIDI – CLEAN POPUP + SELECTION STYLE
+   ========================================================= */
+
+/* ---------- POPUP CONTAINER ---------- */
+.leaflet-popup-content-wrapper {
   background: #ffffff;
-  border-left: 4px solid #0072bc;
+  border-radius: 8px;
+  padding: 14px 18px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
   font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  border: none;
 }
-.info-panel h2 {
-  margin-top: 0;
-  font-size: 20px;
+
+/* Remove default margins */
+.leaflet-popup-content {
+  margin: 0;
+  max-width: 320px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* ---------- HEADINGS ---------- */
+.leaflet-popup-content h3,
+.leaflet-popup-content h4 {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+  font-weight: bold;
   color: #003d73;
 }
 
-.info-section {
-  margin-top: 12px;
+/* ---------- TEXT ---------- */
+.leaflet-popup-content p {
+  margin: 0 0 6px 0;
 }
 
-.info-section h3 {
-  margin-bottom: 4px;
-  font-size: 14px;
-  color: #444;
-}
-
-.info-section p {
-  margin: 0;
-  font-size: 14px;
-}
-
-.info-section a {
-  display: inline-block;
-  margin-top: 8px;
+/* ---------- LINKS ---------- */
+.leaflet-popup-content a {
   color: #0072bc;
   text-decoration: none;
   font-weight: bold;
 }
+
+.leaflet-popup-content a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- CLOSE BUTTON ---------- */
+.leaflet-popup-close-button {
+  top: 6px;
+  right: 6px;
+  font-size: 16px;
+  color: #666 !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #000 !important;
+}
+
+/* ---------- POPUP ARROW ---------- */
+.leaflet-popup-tip {
+  background: #ffffff;
+}
+
+/* Optional: Remove arrow completely for card-style look */
+/*
+.leaflet-popup-tip-container {
+  display: none;
+}
+*/
+
+/* =========================================================
+   SELECTION & HOVER STYLING (REMOVE DOTTED OUTLINE)
+   ========================================================= */
+
+/* Remove dashed selection outlines */
+.leaflet-container .leaflet-interactive {
+  stroke-dasharray: none !important;
+}
+
+/* Softer, neutral border instead of red highlight */
+.leaflet-container .leaflet-interactive {
+  stroke: #444 !important;
+  stroke-width: 1 !important;
+}
+
+/* Keep fill color unchanged */
+.leaflet-container path {
+  transition: stroke 0.15s ease;
+}
+
+/* Optional: No stroke at all (uncomment if preferred) */
+/*
+.leaflet-container .leaflet-interactive {
+  stroke-width: 0 !important;
+}
+*/
