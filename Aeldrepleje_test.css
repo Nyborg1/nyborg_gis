@@ -1,31 +1,55 @@
-.map-info-popup {
+/* ---------------------------------------------------------
+   LEAFLET POPUP – CLEAN MUNICIPAL STYLE
+   --------------------------------------------------------- */
+
+.leaflet-popup-content-wrapper {
   background: #ffffff;
-  border-radius: 6px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   font-family: Arial, Helvetica, sans-serif;
   color: #222222;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 12px 14px;
+  font-size: 14px;
+  line-height: 1.5;
   max-width: 320px;
 }
 
-.map-info-popup-header {
-  padding: 10px 12px;
+.leaflet-popup-content h3 {
+  margin: 0 0 6px 0;
   font-size: 16px;
   font-weight: bold;
   color: #003d73;
-  border-bottom: 1px solid #e0e0e0;
 }
 
-.map-info-popup-content {
-  padding: 10px 12px;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-.map-info-popup-content p {
+.leaflet-popup-content p {
   margin: 0 0 6px 0;
 }
 
-.map-info-popup-close {
-  font-size: 18px;
-  color: #666666;
+.leaflet-popup-close-button {
+  top: 6px;
+  right: 6px;
+  color: #666666 !important;
+  font-size: 16px;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #000000 !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff;
+}
+
+/* ---------------------------------------------------------
+   REMOVE RED DOTTED SELECTION OUTLINE
+   --------------------------------------------------------- */
+
+.leaflet-container .leaflet-interactive {
+  stroke-dasharray: none !important;
+  stroke: #444444 !important;
+  stroke-width: 1 !important;
 }
