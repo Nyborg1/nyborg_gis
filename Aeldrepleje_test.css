@@ -1,58 +1,31 @@
-/* =========================================================
-   MAPCENTIA VIDI – INFO POPUP (NOT LEAFLET)
-   ========================================================= */
-
-/* Main popup container */
 .map-info-popup {
   background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
   font-family: Arial, Helvetica, sans-serif;
-  color: #222;
-  border: none;
+  color: #222222;
   max-width: 320px;
 }
 
-/* Popup header */
 .map-info-popup-header {
-  padding: 10px 14px;
+  padding: 10px 12px;
   font-size: 16px;
   font-weight: bold;
   color: #003d73;
   border-bottom: 1px solid #e0e0e0;
 }
 
-/* Popup content */
 .map-info-popup-content {
-  padding: 12px 14px;
+  padding: 10px 12px;
   font-size: 14px;
   line-height: 1.4;
 }
 
-/* Paragraph spacing */
 .map-info-popup-content p {
   margin: 0 0 6px 0;
 }
 
-/* Links */
-.map-info-popup-content a {
-  color: #0072bc;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.map-info-popup-content a:hover {
-  text-decoration: underline;
-}
-
-/* Close button */
 .map-info-popup-close {
-  color: #666 !important;
   font-size: 18px;
-  top: 8px;
-  right: 10px;
-}
-
-.map-info-popup-close:hover {
-  color: #000 !important;
+  color: #666666;
 }
